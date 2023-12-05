@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Riverside/static/css/main.02cfd29c.css",
+    "main.js": "/Riverside/static/js/main.84ac0eed.js",
+    "static/js/787.0481c9ee.chunk.js": "/Riverside/static/js/787.0481c9ee.chunk.js",
+    "static/media/pizza.jpg": "/Riverside/static/media/pizza.6481849f84230c13a0bd.jpg",
+    "static/media/sushi.jpg": "/Riverside/static/media/sushi.77e6121a6e63e95ef28b.jpg",
+    "static/media/burger.jpg": "/Riverside/static/media/burger.cccf50ffa77336054075.jpg",
+    "static/media/Fishfry.jpg": "/Riverside/static/media/Fishfry.e9e18336166314bc5b6b.jpg",
+    "static/media/Italian Pasta.jpg": "/Riverside/static/media/Italian Pasta.278f6618e3bd2ca9fd94.jpg",
+    "static/media/pexels-ljupco-dzambazovski-1346132.jpg": "/Riverside/static/media/pexels-ljupco-dzambazovski-1346132.39456b61dc4ee788a4bd.jpg",
+    "static/media/briyani.jpg": "/Riverside/static/media/briyani.fa414484aeade2edda8d.jpg",
+    "static/media/Prawn.jpg": "/Riverside/static/media/Prawn.82d4cfa730f451099dce.jpg",
+    "static/media/Sandwich.jpg": "/Riverside/static/media/Sandwich.2730fa0b2826b7eb7a56.jpg",
+    "static/media/oreo shake.jpg": "/Riverside/static/media/oreo shake.c712d2933ee511aae022.jpg",
+    "static/media/Frenchfries.jpg": "/Riverside/static/media/Frenchfries.926a90b635db507a449c.jpg",
+    "static/media/Butterscotch.jpg": "/Riverside/static/media/Butterscotch.d37d25b9459d1ec99a01.jpg",
+    "static/media/Chrispy chicken.jpg": "/Riverside/static/media/Chrispy chicken.09358d8a6d3c481e1ef3.jpg",
+    "static/media/Blackforest.jpg": "/Riverside/static/media/Blackforest.40a9d20f375ac435fc28.jpg",
+    "static/media/Rosemilk.jpg": "/Riverside/static/media/Rosemilk.af100a653a0440710099.jpg",
+    "static/media/fruitsalad.jpg": "/Riverside/static/media/fruitsalad.9856ae571096c8fc8351.jpg",
+    "static/media/special icecream.jpg": "/Riverside/static/media/special icecream.fd740bf24afdad1ee096.jpg",
+    "index.html": "/Riverside/index.html",
+    "main.02cfd29c.css.map": "/Riverside/static/css/main.02cfd29c.css.map",
+    "main.84ac0eed.js.map": "/Riverside/static/js/main.84ac0eed.js.map",
+    "787.0481c9ee.chunk.js.map": "/Riverside/static/js/787.0481c9ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02cfd29c.css",
+    "static/js/main.84ac0eed.js"
+  ]
+}
