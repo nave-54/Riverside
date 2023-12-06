@@ -1,0 +1,70 @@
+/* Login.css */
+.login-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.69); /* White background with some opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .login-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: rgb(235, 32, 73);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-box label {
+    font-weight: bold;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .login-box input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    
+  }
+  .l {
+    padding: 8px 20px;
+    background-color: white;
+    color: crimson;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .l:hover {
+    background-color: white;
+    color: crimson;
+  }
+  
