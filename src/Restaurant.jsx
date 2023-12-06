@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import {useRef} from "react";
 import {FaBars,FaTimes} from 'react-icons/fa'
 import "./App.css"; 
 import Flexi from './flexi1'
+import Login from './Login';
 function Restaurant() {
     const navRef = useRef();
+    const [showLogin, setShowLogin]=useState(false);
 
     const showNavbar =() =>{
       navRef.current.toggle("responsive_nav");
+    }
+    const toggleLogin = () =>{
+      setShowLogin(!showLogin);
+      document.body.style.overflow = showLogin ? 'auto' : 'hidden';
     }
   return (
     <div>
@@ -19,14 +25,14 @@ function Restaurant() {
           <a href="#menu">Menu</a>
           <a href="#About">About</a>
           <a href="#About">Contact</a>
-          <a href="#">Login</a>
+          <a href="#" onClick={toggleLogin}>Login</a>
           <button className="nav-btn nav-close" onClick={showNavbar}>
             <FaTimes/>
           </button>
         </nav>
   
         </header>
-
+        {showLogin && <Login onClose={toggleLogin} />}
       <section className="banner">
         <div className="banner-text">
           <h2 className="glow">Welcome to <span>Riverside Dining</span></h2>
